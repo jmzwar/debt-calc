@@ -1,0 +1,20 @@
+{
+  "name": "staking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "mainnet": "node index.js --network=mainnet",
+    "optimism": "node index.js --network=optimism"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.8.8",
+    "@synthetixio/contracts": "^1.2.3",
+    "@synthetixio/wei": "^2.74.4",
+    "axios": "^1.6.3",
+    "date-fns": "^3.0.1",
+    "ethers": "5.7.2",
+    "graphql": "^16.8.1",
+    "yargs": "^17.7.2"
+  }
+}
